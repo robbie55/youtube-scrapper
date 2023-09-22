@@ -1,0 +1,42 @@
+.form {
+  margin-top: 10%;
+}
+
+.form>* {
+  margin: 20px auto;
+  display: block;
+}
+
+.form input {
+  font-size: 15px;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.form input:focus {
+  outline: 2px solid #696969;
+}
+
+.form button {
+  background: #D3D3D3;
+  color: black;
+  border: solid 1px black;
+  border-radius: 7px;
+  padding: 3px 13px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.form button:hover {
+  background: rgba(211, 211, 211, .75);
+}
+
+@media (max-width: 1500px) {
+  .form {
+    margin-top: 7%;
+  }
+}
