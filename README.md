@@ -1,3 +1,9 @@
+This project is currently on hiatus, the youtube API has no documented way to access video 
+auto-generated captions or transcripts.
+
+Youtube has also changed how grabbing the transcript on the UI works, and that's giving
+a selenium based solution issues as well. Will return to finish this.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
